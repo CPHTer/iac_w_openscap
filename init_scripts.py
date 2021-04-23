@@ -3,7 +3,7 @@ init_server = """
 
 sudo add-apt-repository ppa:ansible/ansible-2.5
 apt-get update
-apt-get install libopenscap8 ssg-debian unzip nginx ansible -y
+apt-get install libopenscap8 unzip nginx ansible -y
 
 sudo adduser --quiet --disabled-password --shell /bin/bash --home /home/auditor --gecos "Auditor" auditor
 echo "auditor:letmeaudit" | sudo chpasswd
