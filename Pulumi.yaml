@@ -1,0 +1,7 @@
+name: iac_w_openscap
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: demonstrate the way to use openscap and construct all the things based
+  on IaC
